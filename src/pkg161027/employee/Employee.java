@@ -4,6 +4,11 @@ package pkg161027.employee;
 import java.util.*;
 public class Employee {
 
+    
+	/* Returns a selected instrument.
+	 * pre: none
+	 * post: An instrument object has been returned.
+	 */
     public static void main(String[] args) {
 
         Scanner input = new Scanner (System.in);

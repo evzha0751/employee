@@ -28,14 +28,14 @@ public class Employee {
         while(!choice.equalsIgnoreCase("N")){
             if(times==0){
                 ue = assign(times);
-                System.out.println("Your faculty name is :" +ue);
+                System.out.println("Your faculty name is :   " +ue);
+                System.out.println("");
                 times+=1;
             }else{
                 while(!choice.equalsIgnoreCase("N")){
                     ue = assign(times);
-                    System.out.println("   Staff No."+timesS+" is : "+ue);
+                    System.out.println("   Staff No."+timesS+" is :    "+ue);
                     timesS+=1;
-                    System.out.println("");
                     System.out.print("More staff?  <Y/N>");
                     choice=input.next();
                 }

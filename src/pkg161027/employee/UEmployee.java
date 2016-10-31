@@ -2,13 +2,12 @@
 
 package pkg161027.employee;
 
+/**
+ * UEmployee class.
+ */
 
 public class UEmployee {
+
     
-    private String name;
-    private double salary;
     
-    public UEmployee(){
-        
-    }
 }
